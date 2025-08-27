@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "http://localhost:5173", // allow React frontend
+    origin: "https://groceryyfrontend.netlify.app/", // allow React frontend
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
